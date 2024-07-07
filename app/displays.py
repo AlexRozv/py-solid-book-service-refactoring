@@ -7,7 +7,7 @@ class BookDisplay(ABC):
     @staticmethod
     @abstractmethod
     def display(book: Book) -> None:
-        ...
+        pass
 
 
 class ConsoleBookDisplay(BookDisplay):
